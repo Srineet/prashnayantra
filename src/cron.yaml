@@ -1,0 +1,12 @@
+cron:
+- description: post to Prashnayantra google group
+  url: /post_to_group
+  schedule: every wednesday 09:00
+  timezone: Asia/Calcutta
+- description: post to Prashnayantra google group
+  url: /post_to_group
+  schedule: every saturday 09:00
+  timezone: Asia/Calcutta
+- description: Update interesting discussions list
+  url: /update_py_discussions
+  schedule: every 12 hours
